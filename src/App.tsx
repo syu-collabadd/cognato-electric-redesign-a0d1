@@ -280,7 +280,7 @@ function Hero() {
         className="absolute inset-0 bg-cover bg-center"
         style={{
           backgroundImage:
-            'url(https://images.unsplash.com/photo-1621905251189-08b45d6a269e?w=1600&q=80&auto=format&fit=crop)',
+            'url(https://images.unsplash.com/photo-1682345262055-8f95f3c513ea?w=1600&q=80&auto=format&fit=crop)',
         }}
       />
       {/* Dark gradient overlay */}
@@ -555,8 +555,8 @@ function About() {
           <div className="relative">
             <div className="relative rounded-2xl overflow-hidden aspect-[4/5] max-w-sm mx-auto md:mx-0">
               <img
-                src="https://images.unsplash.com/photo-1590534247854-e97d5e3feef6?w=800&q=80&auto=format&fit=crop"
-                alt="Cognato Electric — licensed electrician at work"
+                src="https://images.unsplash.com/photo-1646640381839-02748ae8ddf0?w=800&q=80&auto=format&fit=crop"
+                alt="Electrician wiring a residential electrical panel"
                 loading="lazy"
                 className="w-full h-full object-cover"
               />
@@ -721,8 +721,8 @@ function ServiceArea() {
           {/* Map photo */}
           <div className="relative rounded-2xl overflow-hidden aspect-video">
             <img
-              src="https://images.unsplash.com/photo-1486325212027-8081e485255e?w=800&q=80&auto=format&fit=crop"
-              alt="Greater Lowell / Merrimack Valley area"
+              src="https://images.unsplash.com/photo-1635335874521-7987db781153?w=800&q=80&auto=format&fit=crop"
+              alt="Aerial view of a suburban neighborhood service area"
               loading="lazy"
               className="w-full h-full object-cover opacity-60"
             />
