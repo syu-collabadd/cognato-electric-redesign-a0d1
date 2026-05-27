@@ -1,0 +1,53 @@
+@import "tailwindcss";
+
+:root {
+  --yellow: #FFDD00;
+  --yellow-dark: #FACB00;
+  --black: #111111;
+  --gray-dark: #1a1a1a;
+  --gray-mid: #2d2d2d;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'DM Sans', sans-serif;
+  background-color: #ffffff;
+  color: #111111;
+  -webkit-font-smoothing: antialiased;
+}
+
+.font-display {
+  font-family: 'DM Sans', sans-serif;
+  font-weight: 900;
+  letter-spacing: -0.02em;
+}
+
+/* Review carousel scroll snap */
+.reviews-track {
+  scroll-snap-type: x mandatory;
+  -webkit-overflow-scrolling: touch;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+.reviews-track::-webkit-scrollbar {
+  display: none;
+}
+
+.review-card {
+  scroll-snap-align: start;
+  flex-shrink: 0;
+}
+
+/* Custom yellow focus ring */
+*:focus-visible {
+  outline: 2px solid #FFDD00;
+  outline-offset: 2px;
+}
