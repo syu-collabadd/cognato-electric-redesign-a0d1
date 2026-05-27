@@ -22,13 +22,15 @@ import {
   Flame,
   Wrench,
   Home,
+  Mail,
 } from 'lucide-react'
 
 // ─── Data ────────────────────────────────────────────────────────────────────
 
-const PHONE = '(978) XXX-XXXX'
-const PHONE_TEL = 'tel:+19780000000'
-const SMS_LINK = 'sms:+19780000000?body=Hi%2C%20I%20need%20help%20with...'
+const PHONE = '(978) 994-6622'
+const PHONE_TEL = 'tel:+19789946622'
+const SMS_LINK = 'sms:+19789946622?body=Hi%2C%20I%20need%20help%20with...'
+const EMAIL = 'cogelec030790@aol.com'
 
 const services = [
   {
@@ -969,6 +971,12 @@ function Footer() {
                 <Phone size={14} className="text-[#FFDD00] flex-shrink-0" />
                 <a href={PHONE_TEL} className="hover:text-[#FFDD00] transition-colors">
                   {PHONE}
+                </a>
+              </div>
+              <div className="flex items-center gap-2 text-gray-300">
+                <Mail size={14} className="text-[#FFDD00] flex-shrink-0" />
+                <a href={`mailto:${EMAIL}`} className="hover:text-[#FFDD00] transition-colors">
+                  {EMAIL}
                 </a>
               </div>
             </div>
